@@ -1,4 +1,4 @@
-﻿# Coding & DSA Knowledge Repository
+# Coding & DSA Knowledge Repository
 
 A structured repository of Data Structures & Algorithms (DSA), competitive programming challenges (LeetCode, HackerRank), Java Object-Oriented Programming (OOP) concepts, and Python development notes.
 
@@ -24,6 +24,9 @@ Coding/
 │   ├── UdemyLearn.java         # OOP Fundamentals (Static, Encapsulation, Constructors)
 │   └── DP_problems/            # Dynamic programming challenges (WIP)
 ├── Leetcode/                   # LeetCode solution archive
+│   ├── README.md               # LeetCode problem index & overview
+│   ├── 1663_SmallestStringWithAGivenNumericValue.md # Greedy & lexicographical minimization
+│   └── 2029_StoneGameIX.md     # Game theory & modulo arithmetic
 └── PYTHON/
     └── Workshop.ipynb          # Python workshops & computational scripts
 ```
@@ -39,17 +42,23 @@ Coding/
 | **Next Permutation** | Medium | Pivot Finding + Suffix Reversal | [Write-up](Arrays/NextPermutation.md) |
 | **Pascal's Triangle** | Easy/Medium | Combinatorics ($\binom{n-1}{r-1}$) & Row Generation | [Write-up](Arrays/PascalsTriangle.md) |
 
-### 2. Linked Lists
+### 2. LeetCode Challenges
+| # | Problem | Difficulty | Category | Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **1663** | **Smallest String With A Given Numeric Value** | Medium | Greedy / String Manipulation | [Write-up](Leetcode/1663_SmallestStringWithAGivenNumericValue.md) |
+| **2029** | **Stone Game IX** | Medium | Game Theory / Modulo Arithmetic | [Write-up](Leetcode/2029_StoneGameIX.md) |
+
+### 3. Linked Lists
 | Problem / Structure | Technique | Complexity | Details |
 | :--- | :--- | :--- | :--- |
 | **Singly Linked List & Middle Node** | Two-Pointer (Slow & Fast / Tortoise & Hare) | Time: $O(N)$, Space: $O(1)$ | [Write-up](JAVA/LinkedList/CreateLinkedList.md) |
 
-### 3. HackerRank Java Challenges
+### 4. HackerRank Java Challenges
 | Challenge | Topic | Concepts Covered | Details |
 | :--- | :--- | :--- | :--- |
 | **Java Currency Formatter** | String & Number Formatting | `NumberFormat`, `Locale`, Custom Locales | [Write-up](HackerRank/CurrencyFormatter.md) |
 
-### 4. Java Object-Oriented Programming (`JAVA/UdemyLearn.java`)
+### 5. Java Object-Oriented Programming (`JAVA/UdemyLearn.java`)
 - **Static Members & Blocks:** Memory allocation at class loading, static methods vs instance methods.
 - **Encapsulation:** Private data hiding, public getters & setters, `this` reference.
 - **Constructors:** Default vs parameterized constructors, object initialization lifecycle.
