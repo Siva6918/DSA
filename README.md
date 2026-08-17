@@ -25,6 +25,7 @@ Coding/
 │   └── DP_problems/            # Dynamic programming challenges (WIP)
 ├── Leetcode/                   # LeetCode solution archive
 │   ├── README.md               # LeetCode problem index & overview
+│   ├── 1563_StoneGameV.md      # Interval dynamic programming & prefix sums
 │   ├── 1663_SmallestStringWithAGivenNumericValue.md # Greedy & lexicographical minimization
 │   └── 2029_StoneGameIX.md     # Game theory & modulo arithmetic
 └── PYTHON/
@@ -45,6 +46,7 @@ Coding/
 ### 2. LeetCode Challenges
 | # | Problem | Difficulty | Category | Details |
 | :--- | :--- | :--- | :--- | :--- |
+| **1563** | **Stone Game V** | Hard | Interval DP / Prefix Sum | [Write-up](Leetcode/1563_StoneGameV.md) |
 | **1663** | **Smallest String With A Given Numeric Value** | Medium | Greedy / String Manipulation | [Write-up](Leetcode/1663_SmallestStringWithAGivenNumericValue.md) |
 | **2029** | **Stone Game IX** | Medium | Game Theory / Modulo Arithmetic | [Write-up](Leetcode/2029_StoneGameIX.md) |
 
