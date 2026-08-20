@@ -1,4 +1,4 @@
-﻿# Array Data Structures & Algorithms
+# Array Data Structures & Algorithms
 
 This directory contains solved problems, comprehensive write-ups, code implementations, and complexity analyses for core array algorithms and LeetCode challenges.
 
@@ -6,11 +6,11 @@ This directory contains solved problems, comprehensive write-ups, code implement
 
 ## Problem Index
 
-| # | Problem | Difficulty | Key Concepts | Documentation |
-|---|---|---|---|---|
-| 1 | **Set Matrix Zeroes** | Medium | Matrix Traversal, Row/Col Flagging, Space Optimization | [SetMatrixZeroes.md](./SetMatrixZeroes.md) |
-| 2 | **Next Permutation** | Medium | Lexicographical Order, Two Pointers, Array Inversion | [NextPermutation.md](./NextPermutation.md) |
-| 3 | **Pascal's Triangle** | Easy / Medium | Dynamic Programming, Combinatorics, Row Generation | [PascalsTriangle.md](./PascalsTriangle.md) |
+| # | Problem | Difficulty | Key Concepts | Documentation | Java Code |
+|---|---|---|---|---|---|
+| 1 | **Set Matrix Zeroes** | Medium | Matrix Traversal, Row/Col Flagging, Space Optimization | [SetMatrixZeroes.md](./SetMatrixZeroes.md) | [SetMatrixZeroes.java](./SetMatrixZeroes.java) |
+| 2 | **Next Permutation** | Medium | Lexicographical Order, Two Pointers, Array Inversion | [NextPermutation.md](./NextPermutation.md) | [NextPermutation.java](./NextPermutation.java) |
+| 3 | **Pascal's Triangle** | Easy / Medium | Dynamic Programming, Combinatorics, Row Generation | [PascalsTriangle.md](./PascalsTriangle.md) | [PascalsTriangle.java](./PascalsTriangle.java) |
 
 ---
 

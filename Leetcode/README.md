@@ -6,12 +6,12 @@ This directory contains in-depth solutions, algorithmic breakdowns, and complexi
 
 ## 📚 Problem Index
 
-| # | Problem | Difficulty | Category / Concepts | Write-up / Solution |
-|---|---|---|---|---|
-| **1563** | **Stone Game V** | Hard | Dynamic Programming, Interval DP, Prefix Sum | [1563_StoneGameV.md](./1563_StoneGameV.md) |
-| **1663** | **Smallest String With A Given Numeric Value** | Medium | Greedy, String Manipulation, Math | [1663_SmallestStringWithAGivenNumericValue.md](./1663_SmallestStringWithAGivenNumericValue.md) |
-| **2029** | **Stone Game IX** | Medium | Game Theory, Modulo Arithmetic, Greedy | [2029_StoneGameIX.md](./2029_StoneGameIX.md) |
-| **3069** | **Distribute Elements Into Two Arrays I** | Easy | Array, Simulation, Dynamic Arrays (`ArrayList`) | [3069_DistributeElementsIntoTwoArraysI.md](./3069_DistributeElementsIntoTwoArraysI.md) |
+| # | Problem | Difficulty | Category / Concepts | Write-up | Java Solution |
+|---|---|---|---|---|---|
+| **1563** | **Stone Game V** | Hard | Dynamic Programming, Interval DP, Prefix Sum | [1563_StoneGameV.md](./1563_StoneGameV.md) | [StoneGameV.java](./StoneGameV.java) |
+| **1663** | **Smallest String With A Given Numeric Value** | Medium | Greedy, String Manipulation, Math | [1663_SmallestStringWithAGivenNumericValue.md](./1663_SmallestStringWithAGivenNumericValue.md) | [SmallestStringWithAGivenNumericValue.java](./SmallestStringWithAGivenNumericValue.java) |
+| **2029** | **Stone Game IX** | Medium | Game Theory, Modulo Arithmetic, Greedy | [2029_StoneGameIX.md](./2029_StoneGameIX.md) | [StoneGameIX.java](./StoneGameIX.java) |
+| **3069** | **Distribute Elements Into Two Arrays I** | Easy | Array, Simulation, Dynamic Arrays (`ArrayList`) | [3069_DistributeElementsIntoTwoArraysI.md](./3069_DistributeElementsIntoTwoArraysI.md) | [DistributeElementsIntoTwoArraysI.java](./DistributeElementsIntoTwoArraysI.java) |
 
 ---
 
