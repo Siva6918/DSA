@@ -11,6 +11,7 @@ This directory contains in-depth solutions, algorithmic breakdowns, and complexi
 | **1563** | **Stone Game V** | Hard | Dynamic Programming, Interval DP, Prefix Sum | [1563_StoneGameV.md](./1563_StoneGameV.md) |
 | **1663** | **Smallest String With A Given Numeric Value** | Medium | Greedy, String Manipulation, Math | [1663_SmallestStringWithAGivenNumericValue.md](./1663_SmallestStringWithAGivenNumericValue.md) |
 | **2029** | **Stone Game IX** | Medium | Game Theory, Modulo Arithmetic, Greedy | [2029_StoneGameIX.md](./2029_StoneGameIX.md) |
+| **3069** | **Distribute Elements Into Two Arrays I** | Easy | Array, Simulation, Dynamic Arrays (`ArrayList`) | [3069_DistributeElementsIntoTwoArraysI.md](./3069_DistributeElementsIntoTwoArraysI.md) |
 
 ---
 
@@ -32,3 +33,9 @@ This directory contains in-depth solutions, algorithmic breakdowns, and complexi
   - When $c_0$ is even: Alice wins if $c_1 \ge 1$ and $c_2 \ge 1$.
   - When $c_0$ is odd: Alice wins if $|c_1 - c_2| > 2$.
 - **Complexity:** $\mathcal{O}(N)$ Time | $\mathcal{O}(1)$ Space
+
+### 4. [LeetCode 3069: Distribute Elements Into Two Arrays I](./3069_DistributeElementsIntoTwoArraysI.md)
+- **Goal:** Distribute elements of an array into two separate arrays by comparing their last elements, then concatenate them.
+- **Key Insight:** Compare the last inserted values using dynamic lists (`ArrayList`) or two pre-allocated fixed buffers with running size pointers.
+- **Complexity:** $\mathcal{O}(N)$ Time | $\mathcal{O}(N)$ Space
+
