@@ -26,6 +26,13 @@ Coding/
 ├── JAVA/
 │   ├── 1Recursion/             # Recursion mechanics, classifications, stack traces & Taylor Series
 │   │   ├── README.md           # Recursion master guide & Horner's rule
+│   │   ├── TreeRecursion.md    # Tree recursion & exponential call tree analysis
+│   │   ├── IndirectRecursion.md# Indirect/mutual recursion & Java symbol resolution
+│   │   ├── NestedRecursion.md  # Nested recursion & McCarthy 91 function
+│   │   ├── SumOfNaturalNumbers.md # Sum of natural numbers recurrence analysis
+│   │   ├── Factorial.md        # Factorial recurrence & integer overflow analysis
+│   │   ├── Power.md            # Exponentiation & fast binary exponentiation
+│   │   ├── TaylorSeries.md     # Taylor series e^x: 3 algorithmic methods compared
 │   │   ├── Recursion.java      # Head vs Tail recursion
 │   │   ├── recursionWithStatic.java    # Class-level state across recursive calls
 │   │   ├── recursionWithOutStatic.java # Stack frame propagation
@@ -78,18 +85,23 @@ Coding/
 | **1** | **Maximum Difference Between Node and Its Ancestor** | Medium | Post-Order Traversal / Bottom-Up Recursion | [Write-up](GeeksforGeeks/MaximumDifferenceBetweenNodeAndItsAncestor.md) |
 | **2** | **Transform String** | Medium | Greedy Suffix Matching / Anagram Hashing | [Write-up](GeeksforGeeks/TransformString.md) |
 
-### 3. Arrays & Matrices
+### 3. Java Recursion Deep Dives (`JAVA/1Recursion/`)
+| Topic | Concept | Details |
+| :--- | :--- | :--- |
+| **Tree Recursion** | Multiple branching calls per frame ($\mathcal{O}(2^n)$ calls) | [Write-up](JAVA/1Recursion/TreeRecursion.md) |
+| **Indirect Recursion** | Mutual circular calls ($A \leftrightarrow B$) & Java multi-pass method resolution | [Write-up](JAVA/1Recursion/IndirectRecursion.md) |
+| **Nested Recursion** | Passing recursive return values as parameters ($f(f(n+11))$) | [Write-up](JAVA/1Recursion/NestedRecursion.md) |
+| **Sum of Natural Numbers** | Linear recursion & recurrence relation $S(n) = S(n-1) + n$ | [Write-up](JAVA/1Recursion/SumOfNaturalNumbers.md) |
+| **Factorial** | Multiplicative reduction & 32-bit overflow analysis | [Write-up](JAVA/1Recursion/Factorial.md) |
+| **Exponentiation (Power)** | Linear $\mathcal{O}(n)$ vs Binary Exponentiation $\mathcal{O}(\log n)$ | [Write-up](JAVA/1Recursion/Power.md) |
+| **Taylor Series ($e^x$)** | Direct $\mathcal{O}(n^2)$ vs Static Ascending $\mathcal{O}(n)$ vs Horner's Rule $\mathcal{O}(n)$ | [Write-up](JAVA/1Recursion/TaylorSeries.md) |
+
+### 4. Arrays & Matrices
 | Problem | Difficulty | Key Technique | Details |
 | :--- | :--- | :--- | :--- |
 | **Set Matrix Zeroes** | Medium | Hash Mapping / In-place Markers | [Write-up](Arrays/SetMatrixZeroes.md) |
 | **Next Permutation** | Medium | Pivot Finding + Suffix Reversal | [Write-up](Arrays/NextPermutation.md) |
 | **Pascal's Triangle** | Easy/Medium | Combinatorics ($\binom{n-1}{r-1}$) & Row Generation | [Write-up](Arrays/PascalsTriangle.md) |
-
-### 4. Recursion & Memory Mechanics (`JAVA/1Recursion/`)
-- **Execution Phases:** Descending (Calling) vs. Ascending (Returning) phases.
-- **Recursion Taxonomies:** Linear (Tail/Head), Tree ($\mathcal{O}(2^n)$), Indirect ($A \leftrightarrow B$), Nested ($f(f(n+11))$).
-- **Taylor Series Optimization:** Direct recurrence $\mathcal{O}(n^2)$ vs. Horner's Rule $\mathcal{O}(n)$.
-- Detailed Guide: [JAVA/1Recursion/README.md](JAVA/1Recursion/README.md)
 
 ### 5. Linked Lists
 | Problem / Structure | Technique | Complexity | Details |
@@ -105,7 +117,6 @@ Coding/
 
 ## 🚀 Quick Execution Guide
 
-### Compile and run Java files:
 ```bash
 # LeetCode 3116
 cd Leetcode
