@@ -10,6 +10,7 @@ This directory contains foundational programs, visual call-stack traces, recursi
 |---|---|---|---|
 | **Head vs Tail Recursion** | [`Recursion.java`](./Recursion.java), [`Recursion.cpp`](./Recursion.cpp) | [README.md](./README.md) | Execution flow in calling vs returning phase |
 | **Static vs Stack Variables** | [`recursionWithStatic.java`](./recursionWithStatic.java), [`recursionWithOutStatic.java`](./recursionWithOutStatic.java) | [README.md#3-static-variables-vs-local-stack-variables-in-recursion](./README.md) | Metaspace vs Stack Frame isolation |
+| **Fibonacci Series (Memoization)** | [`fibonacci1.java`](./fibonacci1.java) | [Fibonacci.md](./Fibonacci.md) | Top-Down DP / Memoization ($\mathcal{O}(2^n) \to \mathcal{O}(n)$) |
 | **Sum of Natural Numbers** | [`sumOfNaturalNumbers.java`](./sumOfNaturalNumbers.java) | [SumOfNaturalNumbers.md](./SumOfNaturalNumbers.md) | $f(n) = f(n-1) + n$ Recurrence ($\mathcal{O}(n)$) |
 | **Factorial ($N!$)** | [`Factorial.java`](./Factorial.java) | [Factorial.md](./Factorial.md) | Base case $0! = 1$, Integer overflow handling |
 | **Exponentiation ($m^n$)** | [`power.java`](./power.java) | [Power.md](./Power.md) | Linear $\mathcal{O}(n)$ & Binary Exponentiation $\mathcal{O}(\log n)$ |

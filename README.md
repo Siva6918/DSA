@@ -26,6 +26,7 @@ Coding/
 ├── JAVA/
 │   ├── 1Recursion/             # Recursion mechanics, classifications, stack traces & Taylor Series
 │   │   ├── README.md           # Recursion master guide & Horner's rule
+│   │   ├── Fibonacci.md        # Fibonacci sequence with memoization (Top-down DP)
 │   │   ├── TreeRecursion.md    # Tree recursion & exponential call tree analysis
 │   │   ├── IndirectRecursion.md# Indirect/mutual recursion & Java symbol resolution
 │   │   ├── NestedRecursion.md  # Nested recursion & McCarthy 91 function
@@ -33,6 +34,7 @@ Coding/
 │   │   ├── Factorial.md        # Factorial recurrence & integer overflow analysis
 │   │   ├── Power.md            # Exponentiation & fast binary exponentiation
 │   │   ├── TaylorSeries.md     # Taylor series e^x: 3 algorithmic methods compared
+│   │   ├── fibonacci1.java     # Memoized Fibonacci implementation
 │   │   ├── Recursion.java      # Head vs Tail recursion
 │   │   ├── recursionWithStatic.java    # Class-level state across recursive calls
 │   │   ├── recursionWithOutStatic.java # Stack frame propagation
@@ -88,6 +90,7 @@ Coding/
 ### 3. Java Recursion Deep Dives (`JAVA/1Recursion/`)
 | Topic | Concept | Details |
 | :--- | :--- | :--- |
+| **Fibonacci (Memoization)** | Top-down Dynamic Programming ($\mathcal{O}(2^n) \to \mathcal{O}(n)$) | [Write-up](JAVA/1Recursion/Fibonacci.md) |
 | **Tree Recursion** | Multiple branching calls per frame ($\mathcal{O}(2^n)$ calls) | [Write-up](JAVA/1Recursion/TreeRecursion.md) |
 | **Indirect Recursion** | Mutual circular calls ($A \leftrightarrow B$) & Java multi-pass method resolution | [Write-up](JAVA/1Recursion/IndirectRecursion.md) |
 | **Nested Recursion** | Passing recursive return values as parameters ($f(f(n+11))$) | [Write-up](JAVA/1Recursion/NestedRecursion.md) |
@@ -96,40 +99,13 @@ Coding/
 | **Exponentiation (Power)** | Linear $\mathcal{O}(n)$ vs Binary Exponentiation $\mathcal{O}(\log n)$ | [Write-up](JAVA/1Recursion/Power.md) |
 | **Taylor Series ($e^x$)** | Direct $\mathcal{O}(n^2)$ vs Static Ascending $\mathcal{O}(n)$ vs Horner's Rule $\mathcal{O}(n)$ | [Write-up](JAVA/1Recursion/TaylorSeries.md) |
 
-### 4. Arrays & Matrices
-| Problem | Difficulty | Key Technique | Details |
-| :--- | :--- | :--- | :--- |
-| **Set Matrix Zeroes** | Medium | Hash Mapping / In-place Markers | [Write-up](Arrays/SetMatrixZeroes.md) |
-| **Next Permutation** | Medium | Pivot Finding + Suffix Reversal | [Write-up](Arrays/NextPermutation.md) |
-| **Pascal's Triangle** | Easy/Medium | Combinatorics ($\binom{n-1}{r-1}$) & Row Generation | [Write-up](Arrays/PascalsTriangle.md) |
-
-### 5. Linked Lists
-| Problem / Structure | Technique | Complexity | Details |
-| :--- | :--- | :--- | :--- |
-| **Singly Linked List & Middle Node** | Two-Pointer (Slow & Fast / Tortoise & Hare) | Time: $O(N)$, Space: $O(1)$ | [Write-up](JAVA/LinkedList/CreateLinkedList.md) |
-
-### 6. HackerRank Java Challenges
-| Challenge | Topic | Concepts Covered | Details |
-| :--- | :--- | :--- | :--- |
-| **Java Currency Formatter** | String & Number Formatting | `NumberFormat`, `Locale`, Custom Locales | [Write-up](HackerRank/CurrencyFormatter.md) |
-
 ---
 
 ## 🚀 Quick Execution Guide
 
 ```bash
-# LeetCode 3116
-cd Leetcode
-javac KthSmallestAmountWithSingleDenominationCombination.java
-java KthSmallestAmountWithSingleDenominationCombination
-
-# GeeksforGeeks Transform String
-cd ../GeeksforGeeks
-javac TransformString.java
-java TransformString
-
-# Recursion Taylor Series (Horner's Rule)
-cd ../JAVA/1Recursion
-javac taylorSeries2.java
-java taylorSeries2
+# Fibonacci Memoization
+cd JAVA/1Recursion
+javac fibonacci1.java
+java fibonacci1
 ```
